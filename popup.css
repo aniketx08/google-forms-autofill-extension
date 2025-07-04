@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  min-width: 280px;
+  padding: 12px;
+}
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+#fields-container {
+  margin-bottom: 12px;
+}
+.field-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+.field-row input {
+  flex: 1 1 48%;
+  padding: 4px;
+  font-size: 1em;
+}
+.field-row button {
+  background: none;
+  border: none;
+  color: #c00;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-left: 2px;
+}
+#add-field {
+  margin-bottom: 8px;
+  background: #eee;
+  border: 1px solid #aaa;
+  padding: 3px 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+#save-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 5px 18px;
+  font-size: 1em;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+#status {
+  margin-top: 8px;
+  color: green;
+  font-size: 0.97em;
+}
